@@ -20,8 +20,7 @@ mv DataSet/Test\ Images DataSet/TestImages
 mv DataSet/Train\ Images DataSet/TrainImages
 rm -rf DataSet/Test\ Images.zip DataSet/Train\ Images.zip
 
-mkdir -p DataSet/ModelTrainingDataset/Test/Large DataSet/ModelTrainingDataset/Test/Small \
-    DataSet/ModelTrainingDataset/Validation/Large DataSet/ModelTrainingDataset/Validation/Small \
+mkdir -p DataSet/ModelTrainingDataset/Validation/Large DataSet/ModelTrainingDataset/Validation/Small \
     DataSet/ModelTrainingDataset/Train/Large DataSet/ModelTrainingDataset/Train/Small DataSet/OnlineTestDataset
 
 mv DataSet/TestImages DataSet/OnlineTestDataset
